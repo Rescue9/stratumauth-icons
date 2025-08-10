@@ -29,12 +29,12 @@ IconPack = _reflection.GeneratedProtocolMessageType(
             (_message.Message,),
             {
                 "DESCRIPTOR": _ICONPACK_ICON,
-                "__module__": "icon_pack_pb2"
+                "__module__": "icon_pack_pb2",
                 # @@protoc_insertion_point(class_scope:IconPack.Icon)
             },
         ),
         "DESCRIPTOR": _ICONPACK,
-        "__module__": "icon_pack_pb2"
+        "__module__": "icon_pack_pb2",
         # @@protoc_insertion_point(class_scope:IconPack)
     },
 )

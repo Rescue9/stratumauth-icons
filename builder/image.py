@@ -17,7 +17,9 @@ def render_svg_as_png(source: str, dest: str):
 def get_tinted_svg(source: str, colour: str) -> str:
     with open(source, "r") as file:
         svg = file.read()
-        return svg.replace("/></svg>", f' fill="#{colour}"/></svg>')
+        return svg.replace("/></svg>", f' fill="#{colour}"/></svg>').replace(
+            'fill="currentColor"', ""
+        )
 
 
 def resize_png(input_path: str, output_path: str):
